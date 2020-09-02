@@ -64,6 +64,72 @@
             fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");
             
             
+            Job 用.net core 搭建 
+            var log = $"{AppDomain.CurrentDomain.BaseDirectory}\\LogFiles\\log.txt"; 日志
+            Log.Logger = new LoggerConfiguration().WriteTo.File(log).CreateLogger();
+            RegisterServices.RegisterServicesFun(); 依赖注册  注意 一定要服前
+            HostFactory.Run(x =>
+            {
+                x.Service<ServiceRunner>(s => {
+                    s.ConstructUsing(name => new ServiceRunner());
+                    s.WhenStarted((tc, hc) => tc.Start(hc));
+                    s.WhenStopped((tc, hc) => tc.Stop(hc));
+                    s.WhenContinued((tc, hc) => tc.Continue(hc));
+                    s.WhenPaused((tc, hc) => tc.Pause(hc));
+                });
+                x.RunAsLocalService();
+                x.StartAutomaticallyDelayed();
+                x.SetDescription("Job 数据处理，业务逻辑处理 定时任务");
+                x.SetDisplayName("HospitalReportJob");
+                x.SetServiceName("HospitalReportJob");
+                x.EnablePauseAndContinue();
+            });
+            
+            
+     public sealed class ServiceRunner : ServiceControl, ServiceSuspend
+    {
+        //调度器
+        private readonly IScheduler scheduler;
+        public ServiceRunner()
+        {
+            scheduler = StdSchedulerFactory.GetDefaultScheduler().GetAwaiter().GetResult();
+        }
+        //开始
+        public bool Start(HostControl hostControl)
+        {
+            Log.Information("服务器开始启动");
+            scheduler.Start();
+            return true;
+        }
+        //停止
+        public bool Stop(HostControl hostControl)
+        {
+            scheduler.Shutdown(false);
+            return true;
+        }
+        //恢复所有
+        public bool Continue(HostControl hostControl)
+        {
+            scheduler.ResumeAll();
+            return true;
+        }
+        //暂停所有
+        public bool Pause(HostControl hostControl)
+        {
+            scheduler.PauseAll();
+            return true;
+        }
+    }
             
             
             
+      前端 vue 
+      package.json  配置打包命令
+         "build:prod": "vue-cli-service build", 开发环境
+         "build": "vue-cli-service build --mode staging", 生成环境
+          dev": "vue-cli-service serve", 本地运行
+      配置通过不同打包方式 ，调用不接口数据
+      .env.staging  .env.production  .env.development 
+      在这里可以配置 三个打包配置匿名路径  VUE_CLI_BABEL_TRANSPILE_MODULES 是否调本地store 数据
+    
+      
