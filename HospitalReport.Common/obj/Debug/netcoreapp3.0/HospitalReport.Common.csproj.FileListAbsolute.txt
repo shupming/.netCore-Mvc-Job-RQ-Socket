@@ -1,0 +1,11 @@
+D:\netCode\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Common.deps.json
+D:\netCode\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Common.dll
+D:\netCode\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Common.pdb
+D:\netCode\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Models.dll
+D:\netCode\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Models.pdb
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.csprojAssemblyReference.cache
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.AssemblyInfoInputs.cache
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.AssemblyInfo.cs
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.csproj.CopyComplete
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.dll
+D:\netCode\HospitalReport\HospitalReport.Common\obj\Debug\netcoreapp3.0\HospitalReport.Common.pdb

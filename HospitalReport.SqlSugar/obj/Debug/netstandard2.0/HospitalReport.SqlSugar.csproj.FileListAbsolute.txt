@@ -1,0 +1,8 @@
+D:\netCode\trunk\new\HospitalReport.SqlSugar\bin\Debug\netstandard2.0\HospitalReport.SqlSugar.deps.json
+D:\netCode\trunk\new\HospitalReport.SqlSugar\bin\Debug\netstandard2.0\HospitalReport.SqlSugar.dll
+D:\netCode\trunk\new\HospitalReport.SqlSugar\bin\Debug\netstandard2.0\HospitalReport.SqlSugar.pdb
+D:\netCode\trunk\new\HospitalReport.SqlSugar\obj\Debug\netstandard2.0\HospitalReport.SqlSugar.AssemblyInfoInputs.cache
+D:\netCode\trunk\new\HospitalReport.SqlSugar\obj\Debug\netstandard2.0\HospitalReport.SqlSugar.AssemblyInfo.cs
+D:\netCode\trunk\new\HospitalReport.SqlSugar\obj\Debug\netstandard2.0\HospitalReport.SqlSugar.dll
+D:\netCode\trunk\new\HospitalReport.SqlSugar\obj\Debug\netstandard2.0\HospitalReport.SqlSugar.pdb
+D:\netCode\trunk\new\HospitalReport.SqlSugar\obj\Debug\netstandard2.0\HospitalReport.SqlSugar.csprojAssemblyReference.cache

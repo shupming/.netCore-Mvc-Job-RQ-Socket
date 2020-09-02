@@ -1,0 +1,22 @@
+cmd
+>E:
+>cd E:\IrobotBoxWinService\Wms
+E:\IrobotBoxWinService\Wms> IrobotBox.Wms.WinService.exe install
+
+E:\IrobotBoxWinService\Wms> IrobotBox.Wms.WinService.exe start
+
+E:\IrobotBoxWinService\Wms> IrobotBox.Wms.WinService.exe uninstall
+
+
+
+---------------------------------------------------
+
+
+cmd
+>D:
+>cd D:\WinService\Oms
+D:\WinService\Oms> IrobotBox.Oms.WinService.exe install
+
+D:\WinService\Oms> IrobotBox.Oms.WinService.exe start
+
+D:\WinService\Oms> IrobotBox.Oms.WinService.exe uninstall

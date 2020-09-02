@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <job>
+      <name>InventoryStatisticsEmailJob</name>
+      <group>InventoryStatisticsEmailGroup</group>
+      <description>库存周统计，定时发送邮箱</description>
+      <job-type>HospitaReportService.QuartzJobs.InventoryStatisticsEmail, HospitaReportService</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>InventoryStatisticsEmailJob</name>
+        <group>InventoryStatisticsEmail</group>
+        <description>同步触发器</description>
+        <job-name>InventoryStatisticsEmailJob</job-name>
+        <job-group>InventoryStatisticsEmailGroup</job-group>
+        <!--每晚23：50跑一次，具体参见cron表达式-->
+        <cron-expression>0/1 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

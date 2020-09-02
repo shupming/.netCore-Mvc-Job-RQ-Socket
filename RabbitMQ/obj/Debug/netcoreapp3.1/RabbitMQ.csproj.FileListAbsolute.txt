@@ -1,0 +1,7 @@
+D:\netCode\trunk\new\RabbitMQ\bin\Debug\netcoreapp3.1\RabbitMQ.deps.json
+D:\netCode\trunk\new\RabbitMQ\bin\Debug\netcoreapp3.1\RabbitMQ.dll
+D:\netCode\trunk\new\RabbitMQ\bin\Debug\netcoreapp3.1\RabbitMQ.pdb
+D:\netCode\trunk\new\RabbitMQ\obj\Debug\netcoreapp3.1\RabbitMQ.AssemblyInfoInputs.cache
+D:\netCode\trunk\new\RabbitMQ\obj\Debug\netcoreapp3.1\RabbitMQ.AssemblyInfo.cs
+D:\netCode\trunk\new\RabbitMQ\obj\Debug\netcoreapp3.1\RabbitMQ.dll
+D:\netCode\trunk\new\RabbitMQ\obj\Debug\netcoreapp3.1\RabbitMQ.pdb

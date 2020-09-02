@@ -1,0 +1,7 @@
+D:\netCode\trunk\new\SocketService\bin\Debug\netcoreapp3.1\SocketService.deps.json
+D:\netCode\trunk\new\SocketService\bin\Debug\netcoreapp3.1\SocketService.dll
+D:\netCode\trunk\new\SocketService\bin\Debug\netcoreapp3.1\SocketService.pdb
+D:\netCode\trunk\new\SocketService\obj\Debug\netcoreapp3.1\SocketService.AssemblyInfoInputs.cache
+D:\netCode\trunk\new\SocketService\obj\Debug\netcoreapp3.1\SocketService.AssemblyInfo.cs
+D:\netCode\trunk\new\SocketService\obj\Debug\netcoreapp3.1\SocketService.dll
+D:\netCode\trunk\new\SocketService\obj\Debug\netcoreapp3.1\SocketService.pdb

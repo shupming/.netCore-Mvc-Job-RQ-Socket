@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HospitalReport.Common</id>
+    <version>1.0.0</version>
+    <authors>HospitalReport.Common</authors>
+    <owners>HospitalReport.Common</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="HospitalReport.Models" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Autofac" version="4.9.4" exclude="Build,Analyzers" />
+        <dependency id="EPPlus" version="4.5.3.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="System.IO.FileSystem" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Primitives" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Debug\netcoreapp3.0\HospitalReport.Common.dll" target="lib\netcoreapp3.0\HospitalReport.Common.dll" />
+  </files>
+</package>

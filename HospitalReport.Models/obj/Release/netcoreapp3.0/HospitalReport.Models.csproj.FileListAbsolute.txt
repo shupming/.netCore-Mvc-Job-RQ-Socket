@@ -1,0 +1,8 @@
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\bin\Release\netcoreapp3.0\HospitalReport.Models.deps.json
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\bin\Release\netcoreapp3.0\HospitalReport.Models.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\bin\Release\netcoreapp3.0\HospitalReport.Models.pdb
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\obj\Release\netcoreapp3.0\HospitalReport.Models.csprojAssemblyReference.cache
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\obj\Release\netcoreapp3.0\HospitalReport.Models.AssemblyInfoInputs.cache
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\obj\Release\netcoreapp3.0\HospitalReport.Models.AssemblyInfo.cs
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\obj\Release\netcoreapp3.0\HospitalReport.Models.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Models\obj\Release\netcoreapp3.0\HospitalReport.Models.pdb

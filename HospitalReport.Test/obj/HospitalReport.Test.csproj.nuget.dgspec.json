@@ -1,0 +1,404 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\netCode\\trunk\\new\\HospitalReport.Test\\HospitalReport.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\netCode\\trunk\\new\\HospitalReport.Common\\HospitalReport.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netCode\\trunk\\new\\HospitalReport.Common\\HospitalReport.Common.csproj",
+        "projectName": "HospitalReport.Common",
+        "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Common\\HospitalReport.Common.csproj",
+        "packagesPath": "C:\\Users\\irobotbox\\.nuget\\packages\\",
+        "outputPath": "D:\\netCode\\trunk\\new\\HospitalReport.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irobotbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.irobotbox.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Primitives": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj",
+        "projectName": "HospitalReport.Models",
+        "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj",
+        "packagesPath": "C:\\Users\\irobotbox\\.nuget\\packages\\",
+        "outputPath": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irobotbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.irobotbox.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\netCode\\trunk\\new\\HospitalReport.Service\\HospitalReport.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netCode\\trunk\\new\\HospitalReport.Service\\HospitalReport.Service.csproj",
+        "projectName": "HospitalReport.Service",
+        "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Service\\HospitalReport.Service.csproj",
+        "packagesPath": "C:\\Users\\irobotbox\\.nuget\\packages\\",
+        "outputPath": "D:\\netCode\\trunk\\new\\HospitalReport.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irobotbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.irobotbox.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\netCode\\trunk\\new\\HospitalReport.Common\\HospitalReport.Common.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Common\\HospitalReport.Common.csproj"
+              },
+              "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj"
+              },
+              "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspectCore.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj": {
+      "version": "5.0.0.11",
+      "restore": {
+        "projectUniqueName": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj",
+        "projectName": "SqlSugar",
+        "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj",
+        "packagesPath": "C:\\Users\\irobotbox\\.nuget\\packages\\",
+        "outputPath": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irobotbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.irobotbox.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Data.SQLite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Primitives": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\netCode\\trunk\\new\\HospitalReport.Test\\HospitalReport.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netCode\\trunk\\new\\HospitalReport.Test\\HospitalReport.Test.csproj",
+        "projectName": "HospitalReport.Test",
+        "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Test\\HospitalReport.Test.csproj",
+        "packagesPath": "C:\\Users\\irobotbox\\.nuget\\packages\\",
+        "outputPath": "D:\\netCode\\trunk\\new\\HospitalReport.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irobotbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.irobotbox.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Models\\HospitalReport.Models.csproj"
+              },
+              "D:\\netCode\\trunk\\new\\HospitalReport.Service\\HospitalReport.Service.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.Service\\HospitalReport.Service.csproj"
+              },
+              "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj": {
+                "projectPath": "D:\\netCode\\trunk\\new\\HospitalReport.SqlSugar\\HospitalReport.SqlSugar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

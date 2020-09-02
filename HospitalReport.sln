@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport", "HospitalReport\HospitalReport.csproj", "{3267CB34-75A3-403A-9030-0C0B78769E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据访问", "数据访问", "{15417E8E-6F4A-4887-A3FE-2E9D73E834F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "实体模型", "实体模型", "{52CE72D1-3BD4-4453-8687-CEF26F8C844C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport.Models", "HospitalReport.Models\HospitalReport.Models.csproj", "{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单元测试", "单元测试", "{1B06D423-0019-440C-9DE9-00C587002E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport.Test", "HospitalReport.Test\HospitalReport.Test.csproj", "{E90C87EC-667D-4C77-8F37-55DE7ADB0295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "业务逻辑层", "业务逻辑层", "{83DAAC3F-2196-4463-A4D6-418EEB47ED1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport.SqlSugar", "HospitalReport.SqlSugar\HospitalReport.SqlSugar.csproj", "{A7126D96-CE9A-4686-B690-2CBB979B6725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport.Service", "HospitalReport.Service\HospitalReport.Service.csproj", "{3D352E3B-C5BC-4267-B874-DBC261FBE746}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共函数组件", "公共函数组件", "{F4D77E91-3B2C-4836-9843-054974FCCA5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReport.Common", "HospitalReport.Common\HospitalReport.Common.csproj", "{54705E75-A56D-4F9B-99B4-33FB14DDC779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Job定时任务", "Job定时任务", "{A90FBF42-EA0C-4512-B394-884D04AF3F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EF0F2E70-24EC-48E9-8120-F0B354B9774A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalReportJob", "HospitalReportJob\HospitalReportJob.csproj", "{0C2534D1-C000-4D94-B7FF-47D8C4CE6258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{438CEAFE-3FC3-4D91-AF3C-0C2AB385FF1A}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.bat = build\build.bat
+		build\build.sh = build\build.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{0B75C593-52A0-4491-9E26-3654F6C51348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "消息队列数据消费同步", "消息队列数据消费同步", "{916D39F4-91E1-44D9-B03C-7F4496B3A7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketService", "SocketService\SocketService.csproj", "{6202C567-2E1A-41B2-AC05-030F1378177C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket服务", "Socket服务", "{BA7CE650-57DE-4B0D-95B2-DD51DF2849EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "代码生成", "代码生成", "{A6EB2B25-D969-4AAB-8D04-ECDC1A6CFE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3267CB34-75A3-403A-9030-0C0B78769E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3267CB34-75A3-403A-9030-0C0B78769E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3267CB34-75A3-403A-9030-0C0B78769E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3267CB34-75A3-403A-9030-0C0B78769E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90C87EC-667D-4C77-8F37-55DE7ADB0295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90C87EC-667D-4C77-8F37-55DE7ADB0295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90C87EC-667D-4C77-8F37-55DE7ADB0295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90C87EC-667D-4C77-8F37-55DE7ADB0295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7126D96-CE9A-4686-B690-2CBB979B6725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7126D96-CE9A-4686-B690-2CBB979B6725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7126D96-CE9A-4686-B690-2CBB979B6725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7126D96-CE9A-4686-B690-2CBB979B6725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D352E3B-C5BC-4267-B874-DBC261FBE746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D352E3B-C5BC-4267-B874-DBC261FBE746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D352E3B-C5BC-4267-B874-DBC261FBE746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D352E3B-C5BC-4267-B874-DBC261FBE746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54705E75-A56D-4F9B-99B4-33FB14DDC779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54705E75-A56D-4F9B-99B4-33FB14DDC779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54705E75-A56D-4F9B-99B4-33FB14DDC779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54705E75-A56D-4F9B-99B4-33FB14DDC779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2534D1-C000-4D94-B7FF-47D8C4CE6258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2534D1-C000-4D94-B7FF-47D8C4CE6258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2534D1-C000-4D94-B7FF-47D8C4CE6258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2534D1-C000-4D94-B7FF-47D8C4CE6258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B75C593-52A0-4491-9E26-3654F6C51348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B75C593-52A0-4491-9E26-3654F6C51348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B75C593-52A0-4491-9E26-3654F6C51348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B75C593-52A0-4491-9E26-3654F6C51348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6202C567-2E1A-41B2-AC05-030F1378177C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6202C567-2E1A-41B2-AC05-030F1378177C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6202C567-2E1A-41B2-AC05-030F1378177C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6202C567-2E1A-41B2-AC05-030F1378177C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3267CB34-75A3-403A-9030-0C0B78769E6A} = {EF0F2E70-24EC-48E9-8120-F0B354B9774A}
+		{9030C6C9-2C2D-4B7D-9C96-5DE71050CF01} = {52CE72D1-3BD4-4453-8687-CEF26F8C844C}
+		{E90C87EC-667D-4C77-8F37-55DE7ADB0295} = {1B06D423-0019-440C-9DE9-00C587002E7F}
+		{A7126D96-CE9A-4686-B690-2CBB979B6725} = {15417E8E-6F4A-4887-A3FE-2E9D73E834F0}
+		{3D352E3B-C5BC-4267-B874-DBC261FBE746} = {83DAAC3F-2196-4463-A4D6-418EEB47ED1C}
+		{54705E75-A56D-4F9B-99B4-33FB14DDC779} = {F4D77E91-3B2C-4836-9843-054974FCCA5F}
+		{0C2534D1-C000-4D94-B7FF-47D8C4CE6258} = {A90FBF42-EA0C-4512-B394-884D04AF3F53}
+		{0B75C593-52A0-4491-9E26-3654F6C51348} = {916D39F4-91E1-44D9-B03C-7F4496B3A7EF}
+		{6202C567-2E1A-41B2-AC05-030F1378177C} = {BA7CE650-57DE-4B0D-95B2-DD51DF2849EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7785EB5-172E-4F3D-9EE7-52754FC3135E}
+	EndGlobalSection
+EndGlobal

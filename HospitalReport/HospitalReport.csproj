@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\BaseCommon\新文件夹\**" />
+    <Content Remove="Controllers\BaseCommon\新文件夹\**" />
+    <EmbeddedResource Remove="Controllers\BaseCommon\新文件夹\**" />
+    <None Remove="Controllers\BaseCommon\新文件夹\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspectCore.Core" Version="2.1.0" />
+    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="AspectCore.Extensions.Hosting" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalReport.Common\HospitalReport.Common.csproj" />
+    <ProjectReference Include="..\HospitalReport.Models\HospitalReport.Models.csproj" />
+    <ProjectReference Include="..\HospitalReport.Service\HospitalReport.Service.csproj" />
+    <ProjectReference Include="..\HospitalReport.SqlSugar\HospitalReport.SqlSugar.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Start\" />
+    <Folder Include="Views\VueUI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\static\js\app.04a0b3d7.js" />
+    <None Include="wwwroot\static\js\app.6f06e56b.js" />
+    <None Include="wwwroot\static\js\app.ca2012d7.js" />
+    <None Include="wwwroot\static\js\app.e9eda699.js" />
+    <None Include="wwwroot\static\js\chunk-1df0f024.26153a3d.js" />
+    <None Include="wwwroot\static\js\chunk-238c903c.a874f2a1.js" />
+    <None Include="wwwroot\static\js\chunk-26600eb3.9d810132.js" />
+    <None Include="wwwroot\static\js\chunk-2d0c8bf7.1a32ba2b.js" />
+    <None Include="wwwroot\static\js\chunk-2d0cfaef.0fe47312.js" />
+    <None Include="wwwroot\static\js\chunk-2d0d0f79.8c6e6f0d.js" />
+    <None Include="wwwroot\static\js\chunk-2d0e4b0c.bc3a1b64.js" />
+    <None Include="wwwroot\static\js\chunk-2d0e4e1f.9fdc1a32.js" />
+    <None Include="wwwroot\static\js\chunk-2d0e944c.1c62a8e5.js" />
+    <None Include="wwwroot\static\js\chunk-2d2104c6.6f5a75c8.js" />
+    <None Include="wwwroot\static\js\chunk-2d226cab.1e2dd152.js" />
+    <None Include="wwwroot\static\js\chunk-2d229205.a697a675.js" />
+    <None Include="wwwroot\static\js\chunk-4755006f.5aeb174d.js" />
+    <None Include="wwwroot\static\js\chunk-5088bd5d.d849cb1c.js" />
+    <None Include="wwwroot\static\js\chunk-elementUI.cb459a4a.js" />
+    <None Include="wwwroot\static\js\chunk-f8a438f0.5d1b12d8.js" />
+    <None Include="wwwroot\static\js\chunk-libs.b0da50a4.js" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

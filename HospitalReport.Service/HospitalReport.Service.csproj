@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspectCore.Core" Version="2.1.0" />
+    <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalReport.Common\HospitalReport.Common.csproj" />
+    <ProjectReference Include="..\HospitalReport.Models\HospitalReport.Models.csproj" />
+    <ProjectReference Include="..\HospitalReport.SqlSugar\HospitalReport.SqlSugar.csproj" />
+  </ItemGroup>
+</Project>

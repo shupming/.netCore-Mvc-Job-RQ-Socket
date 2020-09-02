@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="HospitalReportOracleConnection.cs" />
+    <Compile Remove="IHospitalReportConnection.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalReport.Models\HospitalReport.Models.csproj" />
+    <ProjectReference Include="..\SqlSugar\HospitalReport.SqlSugar.csproj" />
+  </ItemGroup>
+
+</Project>

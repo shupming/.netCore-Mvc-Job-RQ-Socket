@@ -1,0 +1,13 @@
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.Common.deps.json
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.Common.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.Common.pdb
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.Models.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.SqlSugar.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.Models.pdb
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\bin\Release\netcoreapp3.1\HospitalReport.SqlSugar.pdb
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.csprojAssemblyReference.cache
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.AssemblyInfoInputs.cache
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.AssemblyInfo.cs
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.csproj.CopyComplete
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.dll
+D:\netCode\trunk\HospitalReport\HospitalReport.Common\obj\Release\netcoreapp3.1\HospitalReport.Common.pdb
