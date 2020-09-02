@@ -131,5 +131,44 @@
       配置通过不同打包方式 ，调用不接口数据
       .env.staging  .env.production  .env.development 
       在这里可以配置 三个打包配置匿名路径  VUE_CLI_BABEL_TRANSPILE_MODULES 是否调本地store 数据
-    
       
+      
+      request.js  全系统封装入参，和反参 
+       config.data = {
+                InputView:config.data,
+                Language:store.getters.language
+               };
+       return config;
+     // 反参
+    response => {
+    const res = response.data
+    if (res.Status != 'Success') {
+      Message({
+        message: res.Message || 'Error',
+        type: 'error',
+        duration: 5 * 1000
+      })
+      if (res.Status === "LoginOut" ) {
+        location.reload() //退出请求token  页面加载会判断有没有token 没有token 会条登录路由
+      }
+      return Promise.reject(new Error(res.message || 'Error'))
+      
+      
+      permission.js
+      页面加载执行的js  有token 判断，如果有token 就调用菜单接口 加载路由
+      
+         try {
+        await store.dispatch('sysmenus/getmenulist');
+        let meuns=store.getters.meuns;
+        if (meuns.length < 1) {
+              global.antRouter = []
+              next()
+       }
+        router.addRoutes(meuns) // 2.动态添加路由
+        global.antRouter = meuns // 3.将路由数据传递给全局变量，做侧边栏菜单渲染工作
+        next({ ...to, replace: true })
+        
+        退出记得要清空动态路由，要不然登录进去就是空白页面（想了好久 才想到这个方法）
+      
+      
+   消息队列，一键生成菜单和操作权限，sokcet（core） 服务 还在搭建中
